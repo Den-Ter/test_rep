@@ -1,0 +1,5 @@
+project(degree_conventer)
+cmake_minimum_required(VERSION 4.1)
+add_executable(degree_conventer main.cpp)
+target_link_libraries(degree_conventer degree_conventer_lib)
+add_subdirectory(lib)
